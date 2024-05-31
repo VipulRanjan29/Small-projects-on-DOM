@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+    </nav>
+
+    <div class="intro">
+        <h1>
+            BODY MASS INDEX 
+        </h1>
+    
+        <p>
+            Body Mass Index (BMI) is a quick and easy way to estimate body fat based on weight and height. It helps identify if the person is underweight, normal weight, overweight, or obese.
+        </p>
+
+        <h2>
+           BMI calculations
+        </h2>
+
+        <p>
+            Body Mass Index is calculated using either the metric or imperial BMI formula. In both cases, you divide your weight by your height raised to the power of 2. With the imperial BMI formula, you then multiply the resulting figure by 703.
+            <br><br>
+            If you wish to calculate your BMI manually rather than using the BMI calculator, I've included some simple instructions and formulae below. It's important that if you use these, you ensure that your units are in the same unit system (metric or imperial) and the correct corresponding unit.
+        </p>
+
+        <h2>
+            To calculate your BMI
+        </h2>
+
+        <ol>
+            <li>Divide your weight (lb) by your height (in).
+                <br>Example: 154lb ÷ 71in = 2.169 </li>
+            <br>
+            <li>Divide your answer from part 1 by your height again.
+                <br>Example: 2.169 ÷ 71 = 0.03055</li>
+            <br>
+            <li>Multiply your answer from part 2 by 703.
+                <br>Example: 0.03055 × 703 = 21.48 </li>
+        </ol>
+
+        <h2>BMI Categories</h2>
+        <ul>
+            <li>UnderWeight : BMI < 18.5</li>
+            <li>Normal weight : 18.5 < BMI < 24.9 </li>
+            <li>Overweight : 25.5 < BMI < 29.9</li>
+            <li>Obesity : BMI > 30 </li> 
+        </ul>
+    </div>
+    
+    <div class="container">
+        <form>
+        <div class="box">
+            <h2>Calculate BMI </h2>
+            <div class="height">
+                <label>Height in CM : </label>
+                <input type="text"  id="Height" required>
+            </div>
+            <div class="weight">
+                <label>Weight in KG : </label>
+                <input type="text" id="Weight" required>
+            </div>
+    
+            <button>Calculate</button></div>
+        
+        </form>
+
+        <div id="result" class ="box"></div>
+    </div>
+
+    
+
+    <div class="end">
+        <h2>Why BMI Matters</h2>
+        <ul>
+            <li>Health Indicator : Helps assess the risk of health issues related to body weight.</li>
+            <li>Easy to Use : Requires only height and weight to determine.</li>
+        </ul>
+
+        <h2>Limitations</h2>
+        <ul>
+            <li>Not a Direct Measure of Body Fat: Muscle and fat are not differentiated.</li>
+            <li>Varies with Age, Gender, and Ethnicity: May not accurately reflect body fat in all groups.</li>
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    box-sizing : border-box;
+}
+div{
+    margin: 5px;
+}
+
+li{
+    pading: 0.5rem;
+}
+
+.ol{
+    padding: 0.5rem;
+}
+
+.container{
+    display:flex;
+    aligh-items:center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+#result {
+    padding-top: 130px;
+}
