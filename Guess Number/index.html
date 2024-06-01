@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather&family=Montserrat&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+    </nav>
+
+    <div id="wrapper">
+        <h1>Welcome to Guess the Number Game!</h1>
+        <p>Are you ready to put your guessing skills to the test ? <br> Guess the Number Game is a fun and challenging game where you try to guess a secret number within a range of 1 to 100. Whether you're a seasoned pro or a newcomer to the world of guessing games, this is the perfect way to challenge yourself and have a blast in the process.</p>
+
+        <h2>How to Play</h2>
+        <ul>
+            <li><p><strong>Guess the Number : </strong>Start by making your first guess within the chosen range.</p></li>
+            <li><p><strong>Receive Clues : </strong>Depending on whether your guess is too high or too low, you'll receive clues to help you narrow down the possibilities.</p></li>
+            <li><p><strong>Continue Guessing : </strong>Keep guessing until you correctly identify the secret number or exhausted your attempts.</p></li>
+        </ul>
+        <div class="box">
+        <form class="form">
+            <label for="guessField" id="guess">Guess a Number</label>
+            <input type="text" name="guessField" id="guessField">
+            <input type="submit" id = "subt" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="resultParas">
+            <p>Previous Guess : <span class="lastResult"></span></p>
+            <p>Guesses Remaining :<span class ="lastResult">10</span> </p>
+            <p class = "lowOrHigh">saf</p>
+        </div>
+        </div>
+        <h2>Tips for Success</h2>
+        <ul>
+            <li><p><strong>Use Logic : </strong>Pay attention to the clues provided after each guess. They will help you eliminate possibilities and make more informed guesses.</p></li>
+            <li><p><strong>Narrow Your Range : </strong>As you receive more clues, narrow down your range of possible numbers to increase your chances of guessing correctly.</p></li>
+            <li><p><strong>Stay Patient : </strong> Guessing the secret number may take some time and multiple attempts. Stay patient and persistent!</p></li>
+        </ul>
+
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
