@@ -95,7 +95,6 @@ p {
     font-weight: bold;
 }
 
-/* Tips styles */
 h2 {
     color: #333;
     font-size: 24px;
@@ -111,11 +110,14 @@ ul li {
     margin-bottom: 20px;
 }
 
-/* Footer styles */
 footer {
     text-align: center;
     margin-top: 50px;
     padding: 20px 0;
     background-color: #333;
     color: #fff;
+}
+
+#newGame{
+    color:white;
 }
