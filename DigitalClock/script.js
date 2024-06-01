@@ -6,4 +6,4 @@ setInterval(function(){
     let minute = date.getMinutes();
     let second = date.getSeconds();
     clock.innerHTML = `${hour}:${minute}:${second}`;
-},1000);
+},10);
