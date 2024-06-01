@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(90deg, #42275a, #734b6d);
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: whitesmoke ;
+    font-family: Arial, sans-serif;
+}
+
+a {  
+    padding: 0.5rem;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size:2rem;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 30vh;
+    width: 40vw;
+    border-radius: 15px;
+    font-size: 7vw; 
+    padding: 1rem; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .clock {
+        width: 70vw; 
+        height: 30vh; 
+        font-size: 15vw; 
+    }
+}
+
+@media (max-width: 480px) {
+    .clock {
+        width: 90vw; 
+        height: 30vh; 
+        font-size: 10vw; 
+    }
+}
